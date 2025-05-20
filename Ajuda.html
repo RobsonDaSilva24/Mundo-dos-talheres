@@ -1,0 +1,184 @@
+<!Doctype html>
+  <html lang="pt-br">
+  
+     <head>
+	       <meta charset="utf-8">
+		   <meta name="author" content="Robson da Silva">
+		   <meta name="keywords" content="Colheres,Garfos,Pratos,Facas,Copos,Ajuda">
+		   <meta name="descriptions" content="Site sobre talheres de mesa">
+		   <meta name="viewport" content="width=device-width, initial-scale=1">
+		   
+	       <title> Ajude o site </title>
+		  
+		   <link rel="stylesheet" type="text/css" href="css/Arquivo.css">
+		   <script type="text/javascript" src="javascript/Código.js">
+		   </script>
+		   
+		   <style>
+		          body{
+	                   font-family:Tahoma,Arial,Times new roman;
+	                   background-image:  url("imagens/Talheres.png");
+					   background-repeat:repeat;
+                     }
+				  textarea{
+				       display:block;
+					   margin-bottom:40px;
+				    }
+					 
+                  #TextoInicial{
+				       background-color:#ffffff;
+                    }				  
+		   
+					 
+				  #Formulario{
+				      background-color:snow;
+					  border:solid 1px;
+				      padding-top:40px;
+				      padding-left:90px;
+					  margin-right:300px;
+					  margin-left:250px;
+				    }
+					 
+				 /* Estilos para o botão quando o mouse passar sobre ele*/
+				 
+				  #BotaoF:hover{
+				      color:#ffffff;
+					  background-color:#87CEFA;
+					  border-radius:2px;
+				  
+				     }
+					 
+				  .textos{
+				      font-size:20px;
+					  font-family:times new roman;
+					  text-decoration:none;
+				     }
+					 
+				  input[type=text]{
+				      padding:12px;
+					  width:80%;
+					  border:solid #000000;
+					  }
+					  
+				  input[type=text]:hover{
+				      border:solid #0000ff;
+				     
+					 }
+					 
+				  input[type=email]{
+				      padding:12px;
+					  width:80%;
+					  border:solid #00000;
+				    }
+					 
+				  input[type=email]:hover{
+				      border:solid #0000ff;
+				    }
+					
+				  input[type=submit]{
+				      padding:10px 24px;
+					  cursor:pointer;
+				     
+					}
+					 
+				  textarea{
+				      border:solid #000000;
+				     
+					}
+				  textarea:hover{
+				      border:solid #0000ff;
+				  
+				    }
+					 
+		   </style>
+		   
+		   <script type="text/javascript" src="javascript/Código.js">
+		   </script>
+		   
+	 </head>
+	 
+	 <body>
+	       <header class="titulo1"><!--<img src="imagens/logo.png" width="300" height="200" class="logo">--></header>
+				<nav class="MenuPagina">
+				     <ul>
+					     <li class="flutuar"><a href="Index.html">Inicial</a></li>
+					     <li class="flutuar"><a href="Colheres.html">Colheres</a></li>
+						 <li class="flutuar"><a href="Garfos.html">Garfos</a></li>
+						 <li class="flutuar"><a href="Faca.html">Facas</a></li>
+						 <li class="flutuar"><a href="Pratos.html">Pratos</a></li>
+						 <li class="flutuar"><a href="Copos.html">Copos</a></li>
+						 <li class="flutuar"><a href="Ajuda.html">Ajude o site</a></li>
+					 </ul>
+			   </nav>
+		    <main>
+			
+			     <h1>Sua opinião é muito bem-vinda</h1>
+			     <section>
+			              <p>
+			                  Ajude o nosso site deixando suas opiniões,sugestões ou
+				              correções a respeito do conteúdo dele.
+				          </p>
+						  
+				          <p>
+				             Nosso objetivo é trazer mais  informações sobre o mundo
+				             dos talheres com qualidade e seriedade.
+				          </p>
+				 </section>
+				 
+				 <section>
+			   
+			             <form name="F_ajuda" method="post" id="Formulario">
+				            <label class="textos"><b>Qual avaliação você daria ao nosso site?</b></label></br></br>
+				            <input type="radio" name="pesquisa" value="Otimo">Ótimo</input></br>
+				            <input type="radio" name="pesquisa" value="Bom">Bom</input></br>
+				            <input type="radio" name="pesquisa" value="Regular">Regular</input></br>
+				            <input type="radio" name="pesquisa" value="Ruim">Ruim</input></br>
+				            <input type="radio" name="pesquisa" value="Pessimo">Péssimo</input></br></br>
+				  
+				            <label class="textos"><b>Onde o site precisa melhorar?</b></label></br></br>
+				            <input type="radio" name="pesquisa2" value="Conteudo">Conteúdo</input></br>
+				            <input type="radio" name="pesquisa2" value="Design">Design</input></br>
+				            <input type="radio" name="pesquisa2" value="Textos">Textos</input></br>
+				            <input type="radio" name="pesquisa2" value="Todos">Todos</input></br></br>
+			
+				            <label class="textos"><b>Deixe a sua opinião :</b></label></br></br>
+					        <textarea name="opinion" rows="10" cols="40">
+				            </textarea>
+					
+				           <input type="submit" id="BotaoF" value="Enviar" onclick="avalia()"></br></br></br>
+			            </form>
+				</section>
+				
+			</main>
+			   
+			<footer>
+			   <img src="imagens/logo.png" width="200" height="100" class="LogoRodapé">
+			   
+			   <div class="MenuRodapé1">
+			        <ul>
+			            <li><a href="index.html">Inicial</a></li>
+				        <li><a href="Colheres.html">Colheres</a></li>
+				        <li><a href="Garfos.html">Garfos</a></li>
+			        </ul>
+			   </div>
+			   
+			   <div class="MenuRodapé2">
+			        <ul>
+			            <li><a href="Faca.html">Facas</a></li>
+				        <li><a href="Pratos.html">Pratos</a></li>
+				        <li><a href="Copos.html">Copos</a></li>
+			        </ul>
+			   </div>
+			   
+			   <div class="MenuRodapé3">
+			        <ul>
+			            <li><a href="Ajuda.html">Ajuda</a></li>
+		            </ul>
+			   </div>
+		</footer>
+		
+    </body>
+	 
+	 
+	 
+</html>
